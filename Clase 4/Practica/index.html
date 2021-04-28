@@ -1,0 +1,87 @@
+<!-- @format -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+  
+    <form action="" target="_self">
+      <ul>
+        <li>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="Nombre" />
+        </li>
+        <li>
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="Nombre" />
+        </li>
+
+        <li>
+          <label for="Edad">Edad:</label> <input type="number" name="Edad" />
+        </li>
+        <li>
+          <label for="Email">Email:</label>
+          <input type="email" name="Email" />
+        </li>
+        <li>
+          <label for="Password">Password</label>
+          <input type="password" name="password" />
+        </li>
+        
+         <li>
+          <label for="checkbox">Seleciones la ocupacion que tenga:</label><br />
+          <input
+            type="checkbox"
+            id="Ocupacion1"
+            name="Ocupacion1"
+            value="Estudiante"
+          />
+          <label for="Ocupacion1"> Estudiante</label>
+          <input
+            type="checkbox"
+            id="Ocupacion2"
+            name="Ocupacion2"
+            value="Profesional"
+          />
+          <label for="Ocupacion2"> Profesional</label>
+          <input
+            type="checkbox"
+            id="Ocupacion3"
+            name="Ocupacion3"
+            value="otro"
+          />
+          <label for="Otro">otro</label>
+        </li>
+        <li>
+          <label for="Contacto">Hora de contacto:</label><br />
+          <select name="Contacto" id="">
+            <option value="Manana">Manana</option>
+            <option value="Manana">Mediodia</option>
+            <option value="Manana">Tarde</option>
+          </select>
+        </li>
+        <li>
+          <label for="comentario">Comentario:</label> <br /><textarea
+            name="comentario"
+            id=""
+            cols="35"
+            rows="4"
+            placeholder="Deje su comentario"
+          ></textarea>
+        </li>
+        <li>
+          <label for="correo"
+            >Desea recibir mas informacion en su casilla de correo:</label
+          ><br />
+          <input type="radio" value="Si" /><label for="Si">Si</label>
+          <input type="radio" value="No" /><label for="No">No</label>
+        </li> 
+      </ul>
+    </form>
+  </body>
+</html>
