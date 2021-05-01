@@ -1,0 +1,11 @@
+.titulo{
+    padding-left: 40%;
+    text-decoration: underline red;
+    
+}
+.contenDatos  {
+    border: 5px solid blue;
+}
+.contenExperi{
+    border-style: dashed solid;
+}
