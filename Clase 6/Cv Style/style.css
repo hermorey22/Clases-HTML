@@ -1,11 +1,18 @@
-.titulo{
-    padding-left: 40%;
-    text-decoration: underline red;
-    
+/** @format */
+
+.titulo {
+  padding-left: 40%;
+  text-decoration: underline red;
 }
-.contenDatos  {
-    border: 5px solid blue;
+.contenDatos,
+.contenExperi {
+  border: 5px solid blue;
 }
-.contenExperi{
-    border-style: dashed solid;
+.contenDatos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contenDatos,
+.contenExperi {
+  font-style: italic;
 }
