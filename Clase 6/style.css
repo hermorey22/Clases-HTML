@@ -1,0 +1,36 @@
+*{
+    font-family: 'Sigmar One', cursive; /* tipo de fuente linkeada */
+}
+
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+/* *{
+    Este sirve para modificar todos los archivos
+} */
+body h1{
+    color: yellow;
+}
+.fondo{
+    background-color: red;
+    border: 10px solid rgb(0, 255, 98);
+}
+.cabezal{
+    border: 2px solid blue;
+}
+.list{
+    margin: 0%;
+    padding: 0%;
+    list-style: none; /* Sacan los puntos de la lista */
+}
+/*Forma de poner una imagen y poder modificar su tamano con el padre*/
+.image img{
+    width: 70%;
+    height: auto;
+}
+.image{
+    width: 290px;
+    height: 150px;
+}
