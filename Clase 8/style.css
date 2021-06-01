@@ -1,0 +1,36 @@
+/** @format */
+
+* {
+  margin-bottom: 10px;
+}
+.cuadrado {
+  width: 200px;
+  height: 200px;
+  background: yellowgreen;
+  position: relative;
+}
+.rectangulo {
+  width: 400px;
+  height: 200px;
+  background: violet;
+}
+.circulo {
+  width: 20px;
+  height: 20px;
+  background: orange;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+.circulo2 {
+  width: 20px;
+  height: 20px;
+  background: blue;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+/* box-sizing:border-box sirve para que todo dentro de la caja no exceda la medidas ya que si le agregamos un 
+border o un paddin el contenido empieza a ser mas grande   */
