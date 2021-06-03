@@ -3,12 +3,40 @@
   margin: 0;
   padding: 0;
 }
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
 
 nav {
   margin: 10px 0 10px 0;
   padding: 10px;
   border-bottom: 1px maroon solid;
 }
-ul {
+nav ul {
   list-style: none;
+  text-align: center;
 }
+
+nav li{
+  display: inline;
+  margin-right: 16px;
+}
+.imagenContenedor{
+  display: flex;
+  justify-content: center;
+}
+/* pseudo clases css */
+nav li a:hover{
+  color: red;
+}
+li a:visited{
+  color: gainsboro;
+}
+img:hover{
+  width: 300px;
+  height: 300px;
+} 

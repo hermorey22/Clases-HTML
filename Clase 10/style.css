@@ -1,0 +1,32 @@
+
+
+.parImpar{
+    padding: 16px;
+}
+.parImpar ul li {
+    margin-bottom: 10px;
+}
+.parImpar ul li:last-child{
+    margin-bottom: 0px;
+    color: red;
+}
+/* nav ul li{
+    text-align: center;
+} */
+nav li{
+    display: inline;
+    margin-right: 10px;
+    text-align: center;
+}
+footer ul li a::before{
+    content: 'Fasooo';
+    width: 10px;
+    height: 10px;
+    background: red;
+}
+footer ul li a::after{
+    content: 'joyaaa';
+    width: 10px;
+    height: 10px;
+    background: yellow;
+}
