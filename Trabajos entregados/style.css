@@ -6,13 +6,13 @@
   font-family: "Cormorant Garamond", serif;
 }
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   box-sizing: border-box;
 }
 .contenedorMain {
   width: 100%;
-  height: 100%;
+  height: auto;
   background-image: url(src/backgroundGeneral.jpg);
   background-size: cover;
 }
@@ -59,7 +59,7 @@ p {
 }
 
 .productosContenedor {
-  width: 100vw;
+  width: 100%;
   height: 50vh;
   display: flex;
   justify-content: space-between;
@@ -107,17 +107,21 @@ button:hover {
   text-shadow: 1px 1px #58656d;
 }
 .formularioContenedor {
-  /*  width: 100%;
-  height: auto; */
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .formulario {
-  /*  width: 300px;
-  height: auto; */
+  width: 300px;
+  height: auto;
   border: 2px solid white;
   list-style: none;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+.fomulario ul li {
+  list-style: none;
 }
