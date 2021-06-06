@@ -1,0 +1,26 @@
+section{
+    display: flex;
+    padding: 18px;
+
+}
+section div{
+    background: rgb(250, 210, 253);
+    height: 80px;
+    flex-grow: 1;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  /* Flex grow, shrink, basis */
+section div:nth-child(1){
+    flex-basis: 120px;
+}
+section div:nth-child(2){
+    /* flex-grow: 2; */
+    flex-shrink: 1;
+}
+section div:nth-child(3){
+    flex-shrink: 2;
+}
