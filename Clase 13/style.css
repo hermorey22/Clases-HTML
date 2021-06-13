@@ -1,0 +1,12 @@
+/** @format */
+
+:root {
+  --pagina: #fff234;
+}
+h1 {
+  color: var(--pagina);
+}
+section div:last-child {
+  order: -1;
+  /*para modificar el orden de los div pone primero a el ultimo;*/
+}
