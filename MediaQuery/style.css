@@ -160,6 +160,9 @@
     .sevicioContent h1{
         font-size: 35px;
     }
+    .Noticias div:first-child{
+        order: 2;
+    }
     .video{
         width: 900px;
         height: 400px;
